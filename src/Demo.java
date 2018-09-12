@@ -11,7 +11,6 @@ public class Demo {
         Integer[] ints = {345, 78, 858, 45, 22, 90};
         MathBox mb = new MathBox(ints);
 
-
         mb.dump();
         System.out.println(mb.summator());
         System.out.println(Arrays.toString(mb.splitter(2.0)));
